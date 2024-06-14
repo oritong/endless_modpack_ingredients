@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="endless_modpack_ingredients"
+version="0.0.8"
+displayName="EMI"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="oritong, MCreator"
+description="[EMI]整合包的专用mod，名字也叫EMI的说（"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.endless_modpack_ingredients]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.endless_modpack_ingredients]]
+    modId="create"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.endless_modpack_ingredients]]
+    modId="modern_industrialization"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
