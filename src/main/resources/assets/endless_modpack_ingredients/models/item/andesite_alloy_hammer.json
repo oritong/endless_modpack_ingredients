@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "endless_modpack_ingredients:item/andesite_alloy_hammer"
+  }
+}

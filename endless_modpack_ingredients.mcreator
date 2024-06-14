@@ -1,0 +1,482 @@
+{
+  "mod_elements": [
+    {
+      "name": "MMII",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mmii",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AndesiteAlloyPlate",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_plate.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyPlateItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyRotor",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_rotor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_rotor.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyRotorItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyRod",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyRodItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_rod.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyGear",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyGearItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_gear.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndsiteAlloyRing",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andsite_alloy_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndsiteAlloyRingItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andsite_alloy_ring.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyBlade",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyBladeItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_blade.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyBolt",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_bolt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyBoltItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_bolt.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyCurvedPlate",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_curved_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_curved_plate.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyCurvedPlateItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyDoubleIngot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_double_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyDoubleIngotItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_double_ingot.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "CopperOreI",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/client/renderer/CopperOreIRenderer.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/copper_ore_i_spawn_egg.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/entity/CopperOreIEntity.java"
+        ]
+      },
+      "path": "~/mob"
+    },
+    {
+      "name": "AndesiteIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_ingot.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteIngotItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteDust",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteDustItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_dust.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "KelpSoup",
+      "type": "fluid",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kelp_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/kelp_soup_bucket.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/fluid/KelpSoupFluid.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/block/kelp_soup.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/fluid/types/KelpSoupFluidType.java",
+          "src/main/resources/assets/endless_modpack_ingredients/blockstates/kelp_soup.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/block/KelpSoupBlock.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/KelpSoupItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TooMuchSaltInTheKelpSoup",
+      "type": "fluid",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "too_much_salt_in_the_kelp_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/blockstates/too_much_salt_in_the_kelp_soup.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/block/TooMuchSaltInTheKelpSoupBlock.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/fluid/types/TooMuchSaltInTheKelpSoupFluidType.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/TooMuchSaltInTheKelpSoupItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/block/too_much_salt_in_the_kelp_soup.json",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/too_much_salt_in_the_kelp_soup_bucket.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/fluid/TooMuchSaltInTheKelpSoupFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "MoltenAndesiteAlloy",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_andesite_alloy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/block/MoltenAndesiteAlloyBlock.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/fluid/MoltenAndesiteAlloyFluid.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/MoltenAndesiteAlloyItem.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/molten_andesite_alloy_bucket.json",
+          "src/main/resources/assets/endless_modpack_ingredients/models/block/molten_andesite_alloy.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/fluid/types/MoltenAndesiteAlloyFluidType.java",
+          "src/main/resources/assets/endless_modpack_ingredients/blockstates/molten_andesite_alloy.json"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyDrillHead",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_drill_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_drill_head.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyDrillHeadItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyDrill",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_drill.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyDrillItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "AndesiteAlloyHammer",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_alloy_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/andesite_alloy_hammer.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/AndesiteAlloyHammerItem.java"
+        ]
+      },
+      "path": "~/andesite_alloy"
+    },
+    {
+      "name": "ClumpObsidian",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clump_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/clump_obsidian.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/item/ClumpObsidianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IronOreI",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/client/renderer/IronOreIRenderer.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/entity/IronOreIEntity.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/iron_ore_i_spawn_egg.json",
+          "src/main/resources/data/endless_modpack_ingredients/forge/biome_modifier/iron_ore_i_biome_modifier.json"
+        ]
+      },
+      "path": "~/mob"
+    },
+    {
+      "name": "CoalOreI",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_ore_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endlessmodpackingredients/client/renderer/CoalOreIRenderer.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/coal_ore_i_spawn_egg.json",
+          "src/main/resources/data/endless_modpack_ingredients/forge/biome_modifier/coal_ore_i_biome_modifier.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/entity/CoalOreIEntity.java"
+        ]
+      },
+      "path": "~/mob"
+    },
+    {
+      "name": "QuartzOreI",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_ore_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endless_modpack_ingredients/forge/biome_modifier/quartz_ore_i_biome_modifier.json",
+          "src/main/java/net/mcreator/endlessmodpackingredients/entity/QuartzOreIEntity.java",
+          "src/main/java/net/mcreator/endlessmodpackingredients/client/renderer/QuartzOreIRenderer.java",
+          "src/main/resources/assets/endless_modpack_ingredients/models/item/quartz_ore_i_spawn_egg.json"
+        ]
+      },
+      "path": "~/mob"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:modern_industrialization:forge_hammer_tools": [
+      "CUSTOM:AndesiteAlloyHammer"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:MoltenAndesiteAlloy",
+      "~CUSTOM:TooMuchSaltInTheKelpSoup",
+      "~CUSTOM:KelpSoup"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.endless_modpack_ingredients.andesite_alloy_plate": "Andesite Alloy Plate",
+      "item.endless_modpack_ingredients.andsite_alloy_ring": "Andsite Alloy Ring",
+      "item.endless_modpack_ingredients.too_much_salt_in_the_kelp_soup_bucket": "Too Much Salt In The Kelp Soup Bucket",
+      "block.endless_modpack_ingredients.too_much_salt_in_the_kelp_soup": "Too Much Salt In The Kelp Soup",
+      "block.endless_modpack_ingredients.kelp_soup": "Kelp Soup",
+      "item.endless_modpack_ingredients.quartz_ore_i_spawn_egg": "Quartz Ore I Spawn Egg",
+      "item.endless_modpack_ingredients.coal_ore_i_spawn_egg": "Coal Ore I Spawn Egg",
+      "item.endless_modpack_ingredients.copper_ore_i_spawn_egg": "Copper Ore I Spawn Egg",
+      "item.endless_modpack_ingredients.andesite_alloy_double_ingot": "Andesite Alloy Double Ingot",
+      "item.endless_modpack_ingredients.andesite_alloy_gear": "Andesite Alloy Gear",
+      "entity.endless_modpack_ingredients.quartz_ore_i": "Quartz Ore I",
+      "item.endless_modpack_ingredients.andesite_alloy_blade": "Andesite Alloy Blade",
+      "fluid.endless_modpack_ingredients.too_much_salt_in_the_kelp_soup": "Too Much Salt In The Kelp Soup",
+      "item.endless_modpack_ingredients.andesite_alloy_curved_plate": "Andesite Alloy Curved Plate",
+      "item.endless_modpack_ingredients.andesite_dust": "Andesite Dust",
+      "item.endless_modpack_ingredients.andesite_alloy_rotor": "Andesite Alloy Rotor",
+      "fluid.endless_modpack_ingredients.kelp_soup": "Kelp Soup",
+      "item.endless_modpack_ingredients.andesite_alloy_hammer": "Andesite Alloy Hammer",
+      "block.endless_modpack_ingredients.molten_andesite_alloy": "Molten Andesite Alloy",
+      "item.endless_modpack_ingredients.molten_andesite_alloy_bucket": "Molten Andesite Alloy Bucket",
+      "item.endless_modpack_ingredients.iron_ore_i_spawn_egg": "Iron Ore I Spawn Egg",
+      "entity.endless_modpack_ingredients.coal_ore_i": "Coal Ore I",
+      "item.endless_modpack_ingredients.andesite_alloy_bolt": "Andesite Alloy Bolt",
+      "item_group.endless_modpack_ingredients.mmii": "More MI Ingredients",
+      "entity.endless_modpack_ingredients.copper_ore_i": "Copper Ore I",
+      "fluid.endless_modpack_ingredients.molten_andesite_alloy": "Molten Andesite Alloy",
+      "item.endless_modpack_ingredients.andesite_ingot": "Andesite Ingot",
+      "entity.endless_modpack_ingredients.iron_ore_i": "Iron Ore I",
+      "item.endless_modpack_ingredients.andesite_alloy_drill_head": "Andesite Alloy Drill Head",
+      "item.endless_modpack_ingredients.andesite_alloy_rod": "Andesite Alloy Rod",
+      "item.endless_modpack_ingredients.kelp_soup_bucket": "Kelp Soup Bucket",
+      "item.endless_modpack_ingredients.andesite_alloy_drill": "Andesite Alloy Drill",
+      "item.endless_modpack_ingredients.clump_obsidian": "Clump Obsidian"
+    },
+    "zh_cn": {
+      "item.endless_modpack_ingredients.andesite_alloy_plate": "安山合金板",
+      "item.endless_modpack_ingredients.andsite_alloy_ring": "安山合金环",
+      "item.endless_modpack_ingredients.too_much_salt_in_the_kelp_soup_bucket": "特咸海带汤桶",
+      "block.endless_modpack_ingredients.kelp_soup": "海带汤",
+      "block.endless_modpack_ingredients.too_much_salt_in_the_kelp_soup": "特咸海带汤",
+      "item.endless_modpack_ingredients.quartz_ore_i_spawn_egg": "Quartz Ore I Spawn Egg",
+      "item.endless_modpack_ingredients.coal_ore_i_spawn_egg": "Coal Ore I Spawn Egg",
+      "item.endless_modpack_ingredients.copper_ore_i_spawn_egg": "I级铜矿石",
+      "item.endless_modpack_ingredients.andesite_alloy_double_ingot": "安山合金双层锭",
+      "item.endless_modpack_ingredients.andesite_alloy_gear": "安山合金齿轮",
+      "entity.endless_modpack_ingredients.quartz_ore_i": "Quartz Ore I",
+      "item.endless_modpack_ingredients.andesite_alloy_blade": "安山合金扇叶",
+      "fluid.endless_modpack_ingredients.too_much_salt_in_the_kelp_soup": "特咸海带汤",
+      "item.endless_modpack_ingredients.andesite_alloy_curved_plate": "安山合金弯曲板",
+      "item.endless_modpack_ingredients.andesite_dust": "安山粉",
+      "item.endless_modpack_ingredients.andesite_alloy_rotor": "安山合金转子",
+      "fluid.endless_modpack_ingredients.kelp_soup": "海带汤",
+      "item.endless_modpack_ingredients.andesite_alloy_hammer": "安山合金锤",
+      "block.endless_modpack_ingredients.molten_andesite_alloy": "熔融安山合金",
+      "item.endless_modpack_ingredients.molten_andesite_alloy_bucket": "熔融安山合金桶",
+      "item.endless_modpack_ingredients.iron_ore_i_spawn_egg": "Iron Ore I Spawn Egg",
+      "entity.endless_modpack_ingredients.coal_ore_i": "Coal Ore I",
+      "item_group.endless_modpack_ingredients.mmii": "现代工业化部分物品拓展",
+      "item.endless_modpack_ingredients.andesite_alloy_bolt": "安山合金螺栓",
+      "entity.endless_modpack_ingredients.copper_ore_i": "I级铜矿石",
+      "fluid.endless_modpack_ingredients.molten_andesite_alloy": "熔融安山合金",
+      "item.endless_modpack_ingredients.andesite_ingot": "安山锭",
+      "entity.endless_modpack_ingredients.iron_ore_i": "Iron Ore I",
+      "item.endless_modpack_ingredients.andesite_alloy_drill_head": "安山合金钻头",
+      "item.endless_modpack_ingredients.andesite_alloy_rod": "安山合金棒",
+      "item.endless_modpack_ingredients.kelp_soup_bucket": "海带汤桶",
+      "item.endless_modpack_ingredients.andesite_alloy_drill": "安山合金钻",
+      "item.endless_modpack_ingredients.clump_obsidian": "黑曜石碎块"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "andesite_alloy",
+        "children": []
+      },
+      {
+        "name": "mob",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "endless_modpack_ingredients",
+    "modName": "EMI",
+    "version": "0.0.9",
+    "description": "[EMI]整合包的专用mod，名字也叫EMI的说（",
+    "author": "oritong, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v2.0",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "create",
+      "modern_industrialization"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.endlessmodpackingredients"
+  },
+  "mcreatorVersion": 202400118518
+}
